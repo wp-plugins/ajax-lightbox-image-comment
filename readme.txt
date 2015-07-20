@@ -1,6 +1,6 @@
 === Ajax Lightbox Image Comment ===
 Contributors: Jakub Gądek
-Donate link: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=NcUFYjcQ3cH9xtLvsh-K7wLHnunq9220PBcDqdp8F0OEUHAjGZX6qCqOHxq&dispatch=5885d80a13c0db1f8e263663d3faee8d99e4111b56ef0eae45e68b8988f5b2dd
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HV9DZ3G9T2LF8
 Tags: comments, ajax, lightbox, picture, image
 Requires at least: 3.0.1
 Tested up to: 4.2.2
