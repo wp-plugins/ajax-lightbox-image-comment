@@ -1,0 +1,469 @@
+.clearAjaxLightboxImgComment{
+clear:both;
+}
+.AjaxLightboxImgComment{
+width:100%;
+height:100%;
+position: fixed;
+background-color: rgba(0, 0, 0, 0.5);
+background: rgba(0, 0, 0, 0.5);
+color: rgba(0, 0, 0, 0.5);
+z-index: 999;
+}
+.AjaxLightboxImgCommentCt{
+width:80%;
+height: 700px;
+position:relative;
+margin: 100px auto;
+}
+.AjaxLightboxImgCommentImage{
+
+width: 70%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+background: rgba(0, 0, 0, 0.5);
+color: rgba(0, 0, 0, 0.5);
+text-align:center;
+float: left;
+}
+.AjaxLightboxImgCommentImage img{
+max-width: 100%;
+max-height: 100%;
+}
+.AjaxLightboxImgCommentComments{
+
+width: 30%;
+height: 100%;
+float:right;
+background: #fff;
+}
+.absAlicClose{
+position:absolute;
+top: -24px;
+right: -24px;
+}
+.AjaxLightboxImgCommenyClose{
+background: url(../img/close.png) center center no-repeat;
+display:inline-block;
+padding:10px;
+}
+.AjaxLightboxImgCommenyClose:hover{
+background: url(../img/close-hr.png) center center no-repeat;
+}
+.AjaxLightboxImgCommenyPrev{
+background: url(../img/ar-left.png) center center no-repeat;
+display:inline-block;
+padding:30px;
+}
+.AjaxLightboxImgCommenyNext{
+background: url(../img/ar-right.png) center center no-repeat;
+display:inline-block;
+padding:30px;
+}
+.AjaxLightboxImgCommenyPrev:hover{
+background: url(../img/ar-left-hr.png) center center no-repeat;
+}
+.AjaxLightboxImgCommenyNext:hover{
+background: url(../img/ar-right-hr.png) center center no-repeat;
+}
+.absAlicNext,
+.absAlicPrev{
+position: absolute;
+top:45%;
+}
+.absAlicNext{
+right:2%;
+}
+.absAlicPrev{
+left:2%;
+}
+.AjaxLightboxImgCommentComments{
+padding:10px;
+position: relative;
+}
+.AjaxLightboxImgComment .comment-form,
+.AjaxLightboxImgComment .no-comments {
+padding-top: 0.2842em;
+}
+
+.AjaxLightboxImgComment .comments-title{
+font-size:16px;
+}
+
+.AjaxLightboxImgComment .comment-reply-title{
+font-size:12px;
+}
+.AjaxLightboxImgComment .comment-notes{
+
+font-size:10px;
+}
+.AjaxLightboxImgComment input[type="text"], .AjaxLightboxImgComment input[type="email"], .AjaxLightboxImgComment input[type="url"], .AjaxLightboxImgComment input[type="password"], .AjaxLightboxImgComment input[type="search"], .AjaxLightboxImgComment textarea {
+padding: 2px 10px;
+}
+.AjaxLightboxImgComment button, .AjaxLightboxImgComment input, .AjaxLightboxImgComment select, .AjaxLightboxImgComment textarea {
+font-size: 10px;
+font-size: 1.0rem;
+line-height: 1.6842;
+}
+.AjaxLightboxImgComment textarea {
+height:50px;
+}
+.AjaxLightboxImgComment form label,
+.AjaxLightboxImgComment  .post-navigation .meta-nav,
+.AjaxLightboxImgComment .comment-navigation,
+.AjaxLightboxImgComment .image-navigation,
+.AjaxLightboxImgComment .author-heading,
+.AjaxLightboxImgComment .author-bio,
+.AjaxLightboxImgComment .entry-footer,
+.AjaxLightboxImgComment .page-links a,
+.AjaxLightboxImgComment .page-links span,
+.AjaxLightboxImgComment .comment-metadata,
+.AjaxLightboxImgComment .pingback .edit-link,
+.AjaxLightboxImgComment .alic-comment-list .reply,
+.AjaxLightboxImgComment .comment-notes,
+.AjaxLightboxImgComment .comment-awaiting-moderation,
+.AjaxLightboxImgComment .logged-in-as,
+.AjaxLightboxImgComment .comment-form label,
+.AjaxLightboxImgComment .form-allowed-tags,
+.AjaxLightboxImgComment .site-info,
+.AjaxLightboxImgComment .wp-caption-text,
+.AjaxLightboxImgComment .gallery-caption,
+.AjaxLightboxImgComment .entry-caption {
+font-size: 10px;
+font-size: 1.0rem;
+
+}
+.AjaxLightboxImgComment p,
+.AjaxLightboxImgComment address,
+.AjaxLightboxImgComment pre,
+.AjaxLightboxImgComment hr,
+.AjaxLightboxImgComment ul,
+.AjaxLightboxImgComment ol,
+.AjaxLightboxImgComment dl,
+.AjaxLightboxImgComment dd,
+.AjaxLightboxImgComment table {
+margin-bottom: 0.6842em;
+}
+.AjaxLightboxImgComment .comment-reply-title{
+
+padding: 5px;
+cursor: pointer;
+/* background: #0099cc; */
+color: #0099cc;
+padding-left: 30px;
+text-transform:uppercase;
+margin:0 0;
+background: url(../img/small-ar-up.png) center left no-repeat;
+}
+.AjaxLightboxImgComment .comment-reply-title.active{
+background: url(../img/small-ar-down.png) center left no-repeat ;
+}
+
+.AjaxLightboxImgComment .comment .comment-reply-title{
+
+padding: 5px;
+cursor: pointer;
+/* background: #0099cc; */
+color: #0099cc;
+padding-left: 30px;
+text-transform:uppercase;
+background: url(../img/small-ar-down.png) center left no-repeat #fff;
+
+}
+.AjaxLightboxImgComment .comment .comment-reply-title.active{
+background: url(../img/small-ar-up.png) center left no-repeat #fff;
+}
+.AjaxLightboxImgComment  .comment-list > li:after,
+.AjaxLightboxImgComment  .comment-list .children > li:before {
+background:none;
+}
+.alic-comment-body:after;{
+content:'';
+display:table;	
+clear:both;
+}
+.alic-v-left{
+float:left;
+width:40px;
+}
+.alic-v-right{
+float:left;
+}
+.alic-comment-meta a{
+color: rgba(51, 51, 51, 0.7);
+font-size:12px;
+line-height: 14px;
+
+}
+.alic-comment-right{
+padding: 0 0 0 39px;
+  font-size: 13px;
+  line-height: 13px;
+}
+.AjaxLightboxImgComment .alic-comment-author .avatar {
+height: 30px;
+margin-right: 0.6em;
+top: 0px;
+width: 30px;
+}
+.AjaxLightboxImgComment .comment-metadata {
+margin-bottom: 0.6em;
+}
+.AjaxLightboxImgComment{
+line-height:0.6em;
+}
+.AjaxLightboxImgComment .comment-reply-title small a {
+border: 0;
+float: right;
+height: 32px;
+overflow: hidden;
+width: 26px;
+position: relative;
+top: -5px;
+}
+.errorAlic p{
+margin-top:10px;
+color: red;
+line-height: 16px;
+font-size:16px;
+}
+
+.AjaxLightboxImgComment .comment-content p{
+font-size:12px;
+line-height:12px;
+}
+.AjaxLightboxImgComment .fn{
+font-size:12px;
+line-height:12px;
+  font-weight: 700;
+}
+.AjaxLightboxImgComment .alic-reply a {
+font-size:10px;
+font-weight: 600;
+line-height: 1;
+margin-top: 0.6em;
+background: none;
+
+}
+
+.comments-title-alic{
+  padding: 0 0 13px 0px;
+  margin: 0;
+color: #000000;
+  line-height: initial;
+}
+.AjaxLightboxImgCommentlist{
+  height: 598px;
+  overflow: auto;
+  padding: 0px 0;
+  padding-bottom: 0px;
+}
+
+.AjaxLightboxImgCommentForm{
+padding: 13px 15px;
+position: absolute;
+width: 95%;
+bottom: 0;
+background-color: rgba(255, 255, 255, 1.0);
+background: rgba(255, 255, 255, 1.0);
+color: rgba(255, 255, 255, 1.0);
+}
+.AjaxLightboxImgCommentForm .comment-respond {
+  background-color: #fff;
+  padding: 0px 0;
+}
+.AjaxLightboxImgComment .comment-notes {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.AjaxLightboxImgCommentlist .comment .comment-respond {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.AjaxLightboxImgComment .comment-form input[type="submit"] {
+display: inline-block;
+width: auto;
+margin: 0 auto;
+font-size: 12px;
+}
+.AjaxLightboxImgComment .form-submit {
+text-align:center;
+}
+.AjaxLightboxImgComment .form-allowed-tags{
+display:none;
+}
+.AjaxLightboxImgComment .comment-form label{
+color: #000;
+}
+.AjaxLightboxImgComment .comment-form p {
+color: #000;
+}
+.AjaxLightboxImgComment .comment-form input[type="text"], 
+.AjaxLightboxImgComment .comment-form input[type="email"], 
+.AjaxLightboxImgComment .comment-form input[type="url"], 
+.AjaxLightboxImgComment textarea {
+color:#000;
+border-color: #B4B3B3;
+}
+.AjaxLightboxImgComment .comment-content p {
+color:#000;
+}
+.AjaxLightboxImgComment .comment-form-url{
+display: none;
+}
+.AjaxLightboxImgComment .comment form{
+display: block;
+padding: 15px 15px 1px 15px;
+background: rgb(255, 255, 255);
+}
+
+.AjaxLightboxImgComment .comment form textarea,
+.AjaxLightboxImgComment .comment form input{
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+font-size:10px;
+padding: 2px 10px;
+}
+.AjaxLightboxImgComment .comment #respond{
+margin: 0.6842em 0.7em;
+background:#fff;
+-webkit-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.27);
+-moz-box-shadow:    1px 1px 6px 0px rgba(50, 50, 50, 0.27);
+box-shadow:         1px 1px 6px 0px rgba(50, 50, 50, 0.27);
+}
+.AjaxLightboxImgComment form{
+width:100%;
+transparent: transform(Z);
+}
+.AjaxLightboxImgComment .alic-comment-body{
+position:relative;
+background: #e5e5e5;
+margin-bottom: 5px;
+border-top: none;
+  padding: 0.6842em 0.7em;
+
+}
+.AjaxLightboxImgComment .alic-comment-body .alic-vcard:after{
+content:'';
+display:table;
+clear:both;
+}
+.comment-list .alic-reply a {
+  padding: 0.4375em 0.875em;
+}
+
+.AjaxLightboxImgComment  .alic-reply{
+position: absolute;
+top: 7px;
+right: 15px;
+visibility: hidden;
+}
+.AjaxLightboxImgComment .alic-comment-body:hover .alic-reply{
+visibility: visible;
+}
+.AjaxLightboxImgComment .alic-comment-body:hover .alic-reply a:hover{
+color: #0099cc;
+background: #fff;
+border:none;
+-webkit-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.27);
+-moz-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.27);
+box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.27);
+}
+.AjaxLightboxImgComment .comment-metadata .edit-link:before {
+top: 2px;
+}
+.AjaxLightboxImgCommentImage > div{
+display:table;
+}
+.AjaxLightboxImgCommentImage-ct{
+display:table-cell;
+width:100%;
+vertical-align:middle;
+text-align:center;
+
+}
+
+.AjaxLightboxImgCommentImage .comment-list {
+  list-style: none;
+  margin: 0;
+  padding-left:0px;
+}
+
+.AjaxLightboxImgCommentImage .comment-meta {
+  position: relative;
+}
+.AjaxLightboxImgCommentImage .comment-metadata a, 
+.AjaxLightboxImgCommentImage .pingback .edit-link a {
+  color: #707070;
+  color: rgba(51, 51, 51, 0.7);
+}
+.AjaxLightboxImgCommentImage .comment-metadata .edit-link {
+  margin-left: 1em;
+}
+
+@media (max-width: 991px){
+.AjaxLightboxImgCommentImage{
+width: 60%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+background: rgba(0, 0, 0, 0.5);
+color: rgba(0, 0, 0, 0.5);
+text-align:center;
+float: left;
+}
+.AjaxLightboxImgCommentComments{
+width: 40%;
+height: 100%;
+float:right;
+background: #fff;
+}
+}
+@media (max-width: 767px){
+.AjaxLightboxImgCommentImage{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+background: rgba(0, 0, 0, 0.5);
+color: rgba(0, 0, 0, 0.5);
+text-align:center;
+float: left;
+}
+.AjaxLightboxImgCommentComments{
+width: 100%;
+height: 100%;
+float:right;
+background: #fff;
+}
+.absAlicPrev {
+    left: 1%;
+}
+.absAlicNext {
+    right: 1%;
+}
+
+}
+@media (max-width: 480px){
+.absAlicPrev {
+    left: 0;
+}
+.absAlicNext {
+    right: 0;
+}
+.AjaxLightboxImgCommenyNext {
+    padding: 15px;
+}
+.AjaxLightboxImgCommenyPrev {
+
+    padding: 15px;
+}
+}
+@media (max-height: 500px) {
+.AjaxLightboxImgCommentImage{
+width: 100%;
+}
+.AjaxLightboxImgCommentComments{
+display:none !important;
+}
+
+}
